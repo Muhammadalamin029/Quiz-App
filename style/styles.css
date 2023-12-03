@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: darkslateblue;
+}
+
+.app {
+    background: #d2d9db;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app .header {
+    padding: 25px 0;
+    border-bottom: 1px solid #222;
+}
+
+.app .header h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.app .body {
+    padding: 20px 0;
+}
+
+.app .body h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#answer-button .btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #222;
+    color: #222;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all 0.3s;
+}
+
+#answer-button .btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-button {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+#next-button:hover {
+    background-color: #fff;
+    color: #001e4d;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
